@@ -2,21 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container {
+  position: relative;
+  width: 100%;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.navbar {
+  color: white;
 }
+
+/* Centered text */
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #16A2B8;
+} */
+
+
+.signinform {
+  border: solid 1px black ;
+  border-radius: 10%;
+  padding: 20px;
+  min-width: 200px;
+  max-width: 50vw;
+  background-color: white;
+}
+
+.signincol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.nav-link {
+  /* margin: '10px'; */
+  color: white;
+
+}
+.nav-link:hover {
+  color: white
+}
+
+.cardstyle {
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardrow {
+  justify-content: center;
+}
+
+.card-image-container {
+  width: 100%;
+}
+
+.list-group {
+  max-height: 300px;
+  overflow-y:scroll;
+}
+
